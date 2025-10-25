@@ -1,2 +1,6 @@
 [tools]
 "npm:http-server" = "latest"
+
+[tasks.dev]
+description = "start server."
+run = "http-server -o"

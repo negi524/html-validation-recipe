@@ -1,0 +1,12 @@
+.wrapper {
+  max-width: 200px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-btn {
+  margin: 50px;
+}
