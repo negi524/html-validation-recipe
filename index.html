@@ -7,28 +7,29 @@
   <title>html-validation-recipe</title>
 </head>
 <body>
+  <h1>フォームサンプル</h1>
   <div class="wrapper">
-    <form>
-      <div class="form-container">
-        <label>メールアドレス</label>
-        <input type="email" required />
-        <label>プルダウン</label>
-        <select name="sample-pulldown" required>
-          <option value="">選択してください</option>
-          <option value="1">選択肢1</option>
-          <option value="2">選択肢2</option>
-          <option value="3">選択肢3</option>
-        </select>
-        <label>プルダウン</label>
-        <select name="sample-pulldown" required>
-          <option value="">選択してください</option>
-          <option value="1">選択肢1</option>
-          <option value="2">選択肢2</option>
-          <option value="3">選択肢3</option>
-        </select>
-      </div>
-      <button class="form-btn">送信ボタン</button>
-    </form>
+    <div class="form-container">
+      <section>
+        <h2>メールアドレス</h2>
+        <form class="form-item">
+          <input id="email" type="email" required />
+          <button class="form-btn">送信ボタン</button>
+        </form>
+      </section>
+      <section>
+        <h2>プルダウン</h2>
+        <form class="form-item">
+          <select id="pulldown" name="sample-pulldown" required>
+            <option value="">選択してください</option>
+            <option value="1">選択肢1</option>
+            <option value="2">選択肢2</option>
+            <option value="3">選択肢3</option>
+          </select>
+          <button class="form-btn">送信ボタン</button>
+        </form>
+      </section>
+    </div>
   </div>
 </body>
 </html>
